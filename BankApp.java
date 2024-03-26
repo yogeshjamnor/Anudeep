@@ -1,3 +1,4 @@
+// program for bank deposite, withdraw, display the balance of user
 import java.util.Scanner;
 // BankAccount class to represent a simple bank account
 class BankAccount 
