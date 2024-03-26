@@ -1,3 +1,4 @@
+// convert int to integer class
 import java.util.Scanner;
 public class IntegerConvert 
 {
