@@ -1,4 +1,4 @@
-//take integer as input and display input mismatch if user enter without number
+//take integer as input and display input mismatch if user enter wrong formate than number
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class InputHandle 
