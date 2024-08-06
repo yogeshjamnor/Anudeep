@@ -1,21 +1,22 @@
 // Banking application withdraw and deposite with initial amount
 import java.util.Scanner;
-
 class BankingApplication 
 {
     private double balance;
 
     public BankingApplication(double initialBalance)
-	{
+    {
         this.balance = initialBalance;
     }
 
-    public void deposit(double amount) throws NegativeDepositException {
-        if (amount < 0) {
-            throw new NegativeDepositException("Error: Cannot deposit a negative amount.");
-        }
+    public void deposit(double amount) throws NegativeDepositException 
+	{
+      	  if (amount < 0)
+		{
+       		     throw new NegativeDepositException("Error: Cannot deposit a negative amount.");
+       		 }
         balance += amount;
-    }
+        }
 
     public void withdraw(double amount) throws InsufficientFundsException 
 	{
