@@ -1,3 +1,4 @@
+// Banking application withdraw and deposite with initial amount
 import java.util.Scanner;
 
 class BankingApplication 
